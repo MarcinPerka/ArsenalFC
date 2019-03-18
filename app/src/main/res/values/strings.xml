@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Arsenal FC</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="emirates_stadium">Emirates Stadium</string>
+    <string name="emirates_stadium_description">Położony w północnym Londynie, w dzielnicy Islington, na którym od sezonu 2006/07 mecze rozgrywa drużyna Arsenalu. Pojemność: 60 260.</string>
+    <string name="highbury_stadium">Highbury Stadium</string>
+    <string name="highbury_stadium_description">Położony w północnym Londynie, w dzielnicy Highbury, na którym swe mecze rozgrywała w latach 1913–2006 drużyna Arsenalu. Pojemność: 38 419.</string>
+    <string name="todo">TODO</string>
+    <string name="random">Losuj</string>
+    <string name="table_title">Kontuzje w drużynie Arsenalu</string>
+    <string name="player">Zawodnik</string>
+    <string name="date_of_injury">Data kontuzji</string>
+    <string name="type_of_injury">Rodzaj kontuzji</string>
+    <string name="squad">Skład</string>
+    <string name="premier_league">Premier League</string>
+    <string name="trophies">Trofea</string>
+    <string name="more_info">Więcej info</string>
+    <string name="curiosities">Ciekawostki</string>
+    <string name="injuries">Kontuzje</string>
+    <string name="stadiums">Stadiony</string>
+    <string name="achievements">Rekordy</string>
+    <string name="author"><b>Autor: Marcin Perka</b>\nAplikacje Mobilne\nŁódź, 2019</string>
+    <string name="position">Pozycja:</string>
+    <string name="name">Imię i nazwisko:</string>
+    <string name="age">Wiek:</string>
+    <string name="premier_league_description"><b>English Premier League</b> - najwyższa w hierarchii klasa męskich ligowych rozgrywek piłkarskich w Anglii, utworzona w 1992 roku i zarządzana od samego początku przez FA Premier League. Zmagania w jej ramach toczą się cyklicznie i przeznaczone są dla 20 najlepszych krajowych klubów piłkarskich.</string>
+    <string name="table">Tabela</string>
+    <string name="schedule">Terminarz</string>
+    <string name="theYoungest">Najmłodsi</string>
+    <string name="theOldest">Najstarsi</string>
+    <string name="performances">Występy</string>
+    <string name="the_most_matches">Najwięcej występów</string>
+    <string name="the_oldest_players">Najstarsi zawodnicy</string>
+    <string name="the_youngest_players">Najmłodsi debiutanci</string>
+    <string name="year_of_won_trophy">rok wygrania trofeum</string>
+    <string name="trophy_description">opis trofeum</string>
+</resources>

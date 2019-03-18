@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.archu.arsenalfc.activity.TheMostMatchesActivity">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/the_most_matches"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <com.huxq17.swipecardsview.SwipeCardsView
+            android:id="@+id/swipeCardsView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/titleTxt"
+            android:clipToPadding="false"
+            app:alphaOffsetStep="20"
+            app:scaleOffsetStep="0.08"
+            app:yOffsetStep="20dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

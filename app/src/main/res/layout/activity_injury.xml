@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.archu.arsenalfc.activity.InjuryActivity">
+
+    <TableRow
+        android:padding="8dp"
+        android:stretchColumns="3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/table_title"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableLayout android:stretchColumns="*">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="0dp"
+            android:background="#808080"
+            android:paddingVertical="8dp">
+            <TextView
+                android:gravity="left"
+                android:text="@string/player"
+                android:textColor="#cccccc"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:gravity="center"
+                android:text="@string/date_of_injury"
+                android:textColor="#cccccc"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:gravity="right"
+                android:text="@string/type_of_injury"
+                android:textColor="#cccccc"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="0dp"
+            android:background="#D3D3D3"
+            android:paddingVertical="8dp">
+            <TextView
+                android:gravity="left"
+                android:text="Rob Holding"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:gravity="center"
+                android:text="6 grudnia"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:gravity="right"
+                android:text="operacja kolana"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="0dp"
+            android:background="#C0C0C0"
+            android:paddingVertical="8dp">
+            <TextView
+                android:gravity="left"
+                android:text="Konstantinos\nMavropanos"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:gravity="center"
+                android:text="11 maja"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:gravity="right"
+                android:text="pachwina"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="0dp"
+            android:background="#D3D3D3"
+            android:paddingVertical="8dp"
+            android:textColor="@android:color/black">
+            <TextView
+                android:gravity="left"
+                android:text="Danny Welbeck"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:gravity="center"
+                android:text="8 kwietnia"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:gravity="right"
+                android:text="kostka"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="0dp"
+            android:background="#C0C0C0"
+            android:paddingVertical="8dp">
+            <TextView
+                android:gravity="left"
+                android:text="Gedion Zelalem"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:gravity="center"
+                android:text="24 maja"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:gravity="right"
+                android:text="operacja kolana"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+</TableLayout>
