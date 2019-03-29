@@ -71,7 +71,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.injuriesBtn:
-                intent = new Intent(MainActivity.this, InjuryActivity.class);
+                intent = new Intent(MainActivity.this, InjuriesActivity.class);
                 startActivity(intent);
                 break;
         }

@@ -32,11 +32,11 @@ public class AchivementsActivity extends Activity implements View.OnClickListene
         Intent intent;
         switch (id) {
             case R.id.theYoungestBtn:
-                intent = new Intent(AchivementsActivity.this, TheYoungestActivity.class);
+                intent = new Intent(AchivementsActivity.this, TheYoungestPlayersActivity.class);
                 startActivity(intent);
                 break;
             case R.id.theOldestBtn:
-                intent = new Intent(AchivementsActivity.this, TheOldestActivity.class);
+                intent = new Intent(AchivementsActivity.this, TheOldestPlayersActivity.class);
                 startActivity(intent);
                 break;
             case R.id.attendanceBtn:

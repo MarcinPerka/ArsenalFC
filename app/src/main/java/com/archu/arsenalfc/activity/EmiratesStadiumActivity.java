@@ -12,29 +12,29 @@ import java.util.List;
 import com.archu.arsenalfc.R;
 import com.archu.arsenalfc.adapter.StadiumAdapter;
 
-public class HighburyActivity extends Activity {
+public class EmiratesStadiumActivity extends Activity {
 
-    private List<Integer> highburyList;
+    private List<Integer> emiratesList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_highbury);
-        highburyList = new ArrayList<>();
+        setContentView(R.layout.activity_emirates);
+        emiratesList = new ArrayList<>();
 
         initImages();
     }
 
     private void initImages() {
-        highburyList.add(R.drawable.hs1);
-        highburyList.add(R.drawable.hs2);
-        highburyList.add(R.drawable.hs3);
-        highburyList.add(R.drawable.hs4);
-        highburyList.add(R.drawable.hs5);
-        highburyList.add(R.drawable.hs6);
-        highburyList.add(R.drawable.hs7);
-        highburyList.add(R.drawable.hs8);
-        highburyList.add(R.drawable.hs9);
+        emiratesList.add(R.drawable.es1);
+        emiratesList.add(R.drawable.es2);
+        emiratesList.add(R.drawable.es3);
+        emiratesList.add(R.drawable.es4);
+        emiratesList.add(R.drawable.es5);
+        emiratesList.add(R.drawable.es6);
+        emiratesList.add(R.drawable.es7);
+        emiratesList.add(R.drawable.es8);
+
 
         initRecyclerView();
     }
@@ -42,11 +42,10 @@ public class HighburyActivity extends Activity {
     private void initRecyclerView() {
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        StadiumAdapter adapter = new StadiumAdapter(this, highburyList);
+        StadiumAdapter adapter = new StadiumAdapter(this, emiratesList);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
 
     }
 }
-

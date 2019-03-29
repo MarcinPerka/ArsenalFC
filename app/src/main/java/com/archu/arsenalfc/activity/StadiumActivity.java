@@ -30,11 +30,11 @@ public class StadiumActivity extends Activity implements View.OnClickListener {
         Intent intent;
         switch (id) {
             case R.id.emiratesStadiumBtn:
-                intent = new Intent(StadiumActivity.this, EmiratesActivity.class);
+                intent = new Intent(StadiumActivity.this, EmiratesStadiumActivity.class);
                 startActivity(intent);
                 break;
             case R.id.highburyStadiumBtn:
-                intent = new Intent(StadiumActivity.this, HighburyActivity.class);
+                intent = new Intent(StadiumActivity.this, HighburyStadiumActivity.class);
                 startActivity(intent);
                 break;
         }

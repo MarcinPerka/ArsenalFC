@@ -13,14 +13,14 @@ import com.archu.arsenalfc.R;
 import com.archu.arsenalfc.adapter.TilesAdapter;
 import com.archu.arsenalfc.model.Tile;
 
-public class TheYoungestActivity extends Activity {
+public class TheYoungestPlayersActivity extends Activity {
 
     private List<Tile> tilesList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_the_youngest);
+        setContentView(R.layout.activity_the_youngest_players);
         tilesList = new ArrayList<>();
 
         initTiles();

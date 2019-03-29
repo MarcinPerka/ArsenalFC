@@ -5,7 +5,7 @@ trophies, social media, board with injured players, google maps with markers for
 The application also includes a WebView with a schedule and a table of Premier League matches.
 
 ##Some screenshots
-![Screenshot_1552859700](https://user-images.githubusercontent.com/44239776/54543447-f922a080-499d-11e9-98de-4a15e85f0966.png)
+<img src="https://user-images.githubusercontent.com/44239776/54543447-f922a080-499d-11e9-98de-4a15e85f0966.png" width=100,)
 ![Screenshot_1552859808](https://user-images.githubusercontent.com/44239776/54543461-fd4ebe00-499d-11e9-91c6-da2af5434d28.png)
 ![Screenshot_1552859814](https://user-images.githubusercontent.com/44239776/54543467-ffb11800-499d-11e9-9975-73a6f34cbfe9.png)
 ![Screenshot_1552859826](https://user-images.githubusercontent.com/44239776/54543484-050e6280-499e-11e9-8682-9ed5a9816075.png)

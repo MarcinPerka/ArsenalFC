@@ -6,13 +6,13 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.archu.arsenalfc.R;
+import com.archu.arsenalfc.adapter.TrophiesAdapter;
+
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-import com.archu.arsenalfc.R;
-import com.archu.arsenalfc.adapter.TrophiesAdapter;
 
 public class TrophiesActivity extends Activity {
 

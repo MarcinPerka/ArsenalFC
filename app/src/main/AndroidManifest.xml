@@ -49,17 +49,20 @@
         <activity android:name="com.archu.arsenalfc.activity.CuriositiesActivity" />
         <activity android:name="com.archu.arsenalfc.activity.AchivementsActivity" />
         <activity
-            android:name="com.archu.arsenalfc.activity.TheYoungestActivity"
+            android:name="com.archu.arsenalfc.activity.TheYoungestPlayersActivity"
             android:theme="@style/AppTheme"/>
         <activity android:name="com.archu.arsenalfc.activity.MoreInfoActivity" />
-        <activity android:name="com.archu.arsenalfc.activity.EmiratesActivity" />
-        <activity android:name="com.archu.arsenalfc.activity.HighburyActivity" />
-        <activity android:name="com.archu.arsenalfc.activity.InjuryActivity" />
+        <activity android:name="com.archu.arsenalfc.activity.EmiratesStadiumActivity" />
+        <activity android:name="com.archu.arsenalfc.activity.HighburyStadiumActivity" />
+        <activity android:name="com.archu.arsenalfc.activity.InjuriesActivity" />
         <activity android:name="com.archu.arsenalfc.activity.WebViewActivity" />
         <activity
-            android:name="com.archu.arsenalfc.activity.TheOldestActivity"
+            android:name="com.archu.arsenalfc.activity.TheOldestPlayersActivity"
             android:theme="@style/AppTheme" />
         <activity android:name="com.archu.arsenalfc.activity.TheMostMatchesActivity"></activity>
+
+        <activity android:name="com.archu.arsenalfc.activity.PremierLeagueActivity"></activity>
+        <activity android:name="com.archu.arsenalfc.activity.TrophiesActivity"></activity>
     </application>
 
 </manifest>

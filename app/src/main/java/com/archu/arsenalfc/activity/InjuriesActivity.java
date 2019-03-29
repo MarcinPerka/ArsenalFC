@@ -5,7 +5,7 @@ package com.archu.arsenalfc.activity;
 
         import com.archu.arsenalfc.R;
 
-public class InjuryActivity extends Activity {
+public class InjuriesActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
